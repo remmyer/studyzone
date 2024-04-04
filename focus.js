@@ -46,7 +46,7 @@ startBtn.addEventListener("click", () => {
     if(paused){
         paused = false;
         startTime = Date.now() - elapsedTime;
-        intervalId = setInterval(updateTime, 75)
+        intervalId = setInterval(updateTime, 1000)
     }
 })
 pauseBtn.addEventListener("click", () => {
