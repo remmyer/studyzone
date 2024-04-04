@@ -1,0 +1,653 @@
+body{
+    margin:0; 
+}
+
+#focus-body{
+    background-image: url(images/backgroundlofi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+.navbar-focus{
+    display:flex;
+    align-items: center;
+}
+
+.nav-focus{
+    background-color: rgba(128, 128, 128, 0);
+    transition:150ms ease-in;
+}
+
+.nav-focus a{
+    text-decoration: none;
+    color:white;
+}
+
+.nav-focus h2{
+    color:white;
+}
+
+.nav-focus{
+    transition:150ms ease-in;
+    background-color: rgba(47, 72, 66, 0.2); 
+}
+
+.nav-focus span{
+    color:white;
+}
+
+#index-body{
+    background-color:rgb(229, 229, 229);
+    margin:0;
+}
+
+nav h2{
+    font-family:DM Sans, sans-serif;
+    user-select: none;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(128, 128, 128, 0.5);
+    margin-bottom:5vh;
+}
+
+nav span{
+    color:rgb(95, 95, 95)
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+}
+
+nav ul{
+    display:flex;
+}
+
+nav li{
+    margin-right:20px;
+    list-style-type: none;
+    font-family:DM Sans, sans-serif;
+    font-weight:500;
+    transition:200ms ease-in;
+    transform:translateY(1);
+}
+
+nav li:hover{
+    opacity:50%;
+    transition:200ms ease-in;
+    transform:translateY(-2px);
+
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+}
+
+
+.dark-light{
+    margin-right:10px;
+    width:32px;
+    display:flex;
+    align-items: center;
+    font-size:30px;
+}
+
+.dark-light i{
+    cursor:pointer;
+    color:rgb(229, 229, 229);
+}
+
+.dark-light i:hover{
+    opacity:70%;
+    transition:200ms ease-in;
+}
+
+.fa-solid.fa-sun{
+    display:none;
+}
+
+.image-welcome{
+    overflow: hidden;
+    position:relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    transition:250ms ease-in;
+    transform:translateY(1);
+    width:700px;
+    height:360px;
+    border-radius:25px;
+    margin:auto;
+}
+
+
+.image-welcome img{
+    position:absolute;
+    width:800px;
+}
+
+.image-welcome:hover{
+    cursor: pointer;
+    opacity:90%;
+    transition:250ms ease-in;
+    transform:translateY(-10px)
+
+}
+
+.about{
+    border-top:1px solid grey;
+    border-bottom:1px solid grey;
+    width:80vw;
+    margin:auto;
+    text-align: center;
+}
+
+.about h1{
+    font-family:DM Sans, sans-serif;
+    font-size:36px;
+}
+
+.about p{
+    font-family:DM Sans, sans-serif;
+    font-size:18px;
+    margin-bottom:50px;
+}
+
+.subject-main{
+    border-bottom:1px solid gray;
+    text-align: center;
+    margin:auto;
+    font-family:DM Sans, sans-serif;
+}
+
+.subject-main h1{
+    font-family:DM Sans, sans-serif;
+    font-size:36px;
+}
+
+.subjects{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    margin:auto;
+    width:80vw;
+}
+
+.subjects img{
+    width:400px;
+    transition:250ms ease-in;
+    transform:translateY(1);
+    border-radius: 12px;
+}
+
+.subjects img:hover{
+    cursor: pointer;
+    opacity:80%;
+    transition:200ms ease-in;
+    transform:
+    translateY(-8px);
+}
+
+#timeContainer{
+    margin:auto;
+    width:35vw;
+    text-align: center;
+}
+
+.timerTitle{
+    width:35vw;
+    display: flex;
+    justify-content: center;
+}
+
+#timeTitle{
+    font-family:poppins;
+    color:whitesmoke;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+
+#timeDisplay{
+    font-size:50px;
+    font-family:Poppins, sans-serif;
+    border-radius:35px;
+    margin-bottom:10px;
+    background-color: rgba(158, 213, 208, 0.8);
+
+}
+
+.timerBtn{
+    font-family:Poppins, sans-serif;
+    font-size:14px;
+    font-weight:500;
+    text-align: center;
+    padding-top:5px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:5px;
+    border-radius:5px;
+    border:0px;
+    border-style: solid;
+    background-color: rgba(148, 184, 183, 0.9);
+    cursor:pointer;
+}
+
+.timerBtn:hover{
+    transition:100ms ease-in;
+    background-color: rgb(83, 166, 180);
+
+}
+
+/* SCIENCE SUBJECT */
+
+.science-main p{
+    font-family: poppins;
+    font-size: 20px;
+    text-align: center;
+}
+
+.science-main{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    margin:auto;
+    width:80vw;
+}
+.science-topics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.science-topics img{
+    width:30vw;
+    transition:250ms ease-in;
+    transform:translateY(1);
+    border-radius: 12px;
+}
+
+.science-topics img:hover{
+    cursor: pointer;
+    opacity:80%;
+    transition:200ms ease-in;
+    transform:
+    translateY(-8px);
+}
+
+#ET{
+    font-family: poppins;
+    font-size: 25px;
+    color:rgb(85, 81, 81)
+}
+
+#A{
+    font-family: poppins;
+    font-size: 25px;
+    color:rgb(69, 150, 110)
+}
+
+.science-tools{
+    text-align:center;
+    font-family: poppins;
+    font-size: 30px;
+}
+
+#science-header{
+    margin-left:none;
+    margin-right:none;
+    border-radius:40px;
+    width:80vw;
+    margin-bottom:5vh;
+}
+
+.periodic-table{
+    display:flex;
+    margin-bottom: 10vh;
+}
+.periodic-table img{
+    border:8px rgb(73, 73, 73) solid;
+    transition:250ms ease-in;
+    transform:translateY(1);
+    width:60vw;
+}
+.periodic-table img:hover{
+    cursor: pointer;
+    opacity:80%;
+    transition:200ms ease-in;
+    transform:
+    translateY(-8px);
+  }
+
+/* ENERGY TRANSFORMATIONS */
+
+#energy-nav{
+    background-color: rgb(171, 201, 187);
+}
+
+#energy-nav span{
+    color:rgb(62, 129, 112);
+}
+
+#energy-body{
+    background-color: mintcream;
+}
+
+.energyMain{
+    text-align:center;
+    width:80vw;
+    margin:auto
+}
+
+.energyMain p{
+    font-size: 20px;
+}
+
+.energyMain section{
+    margin-bottom:5vh;
+}
+
+.energyMain h1, h2, p{
+    font-family:poppins;
+    
+}
+
+.energyMain span{
+    font-size:25px;
+    font-style: bold;
+    color:rgb(33, 158, 87);
+}
+
+.energyImg{
+    width:32vw;
+    border:4px solid gray;
+    transition:250ms ease-in;
+    transform:translateY(1);
+    margin-bottom:5vh;
+    margin-top:5vh;
+    background-color:white;
+}
+
+.energyImg:hover{
+    cursor: pointer;
+    opacity:80%;
+    transition:200ms ease-in;
+    transform:
+    translateY(-8px);
+  }
+
+  #enbanner{
+    width:75vw;
+    margin: auto;
+    border-radius: 40px;
+  }
+
+/* MEDIA QUERIES */
+
+@media (max-width:1500px){
+    .subjects{
+        width:90vw;
+    }
+    #timeContainer{
+      width:30vw;
+    }
+    #timeDisplay{
+        font-size:55px;
+    }
+}
+
+@media (max-width:1360px){
+    .subjects{
+        width:90vw;
+    }
+    #timeContainer{
+        width:35vw;
+      }
+    #timeDisplay{
+        font-size:60px;
+    }
+}
+
+@media (max-width:1220px){
+    .subjects{
+        width:90vw;
+    }
+    #timeContainer{
+        width:40vw;
+      }
+    #timeDisplay{
+        font-size:65px;
+    }
+    .energyImg{
+        width:60vw;
+    }
+}
+
+@media (max-width:1440px){
+    .subjects{
+        width:90vw;
+    }
+}
+
+@media (max-width:933px){
+    .image-welcome{
+        width:600px;
+        height:309px;
+    }
+    #timeContainer{
+        width:45vw;
+      }
+    #timeDisplay{
+        font-size: 70px;
+    }
+    .image-welcome img{
+        width:600px;
+    }
+    .energyImg{
+        width:60vw;
+    }
+    .science-topics img{
+        width:40vw;
+    }
+    
+}
+
+@media (max-width:750px){
+    #timeContainer{
+        width:50vw;
+      }
+    #timeDisplay{
+        font-size: 75px;
+    }
+    
+}
+
+@media (max-width:682px){
+    #timeContainer{
+        width:55vw;
+      }
+    #timeDisplay{
+        font-size: 80px;
+    }
+}
+
+@media (max-width:632px){
+    #timeContainer{
+        width:65vw;
+      }
+    #timeDisplay{
+        font-size: 90px;
+    }
+}
+
+@media (max-width:600px){
+    .image-welcome{
+        width:500px;
+        height:276px;
+    }
+    .image-welcome img{
+        width:500px;
+    }
+    #timeContainer{
+        width:75vw;
+      }
+    #timeDisplay{
+        font-size: 100px;
+    }
+}
+
+@media (max-width:586px){
+    #timeContainer{
+        width:80vw;
+      }
+    #timeDisplay{
+        font-size: 50px;
+    }
+    .science-topics img{
+        width:60vw;
+    }
+}
+
+
+
+@media (max-width:505px){
+    .image-welcome{
+        width:420px;
+        height:220px;
+    }
+    .image-welcome img{
+        width:420px;
+    }
+    #timeContainer{
+        width:80vw;
+      }
+    #timeDisplay{
+        font-size: 50px;
+    }
+    .energyImg{
+        width:80vw;
+    }
+    .science-topics img{
+        width:80vw;
+    }
+}
+
+@media (max-width:425px){
+    nav li{
+        display:none;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+}
+
+@media (max-width:447px){
+    .image-welcome{
+        width:360px;
+        height:200px;
+    }
+    .image-welcome img{
+        width:360px;
+    }
+    nav li{
+        font-size:13px;
+    }
+    nav h2{
+        margin-left:10px;
+    }
+    .about h1{
+        font-size:30px;
+    }
+    .about p{
+        font-size:14px;
+    }
+    .subjects img{
+        width:320px;
+    }
+    #timeTitle{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:400px){
+    .subjects img{
+        width:300px;
+    }
+    #timeContainer{
+        width:80vw;
+      }
+    #timeDisplay{
+        font-size: 50px;
+    }
+}
+
+@media (max-width:375px){
+    .image-welcome{
+        width:320px;
+        height:180px;
+    }
+    .image-welcome img{
+        width:320px;
+    }
+    nav li{
+        display:none;
+    }
+    nav h2{
+        margin-left:50px;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+    }
+    #timeTitle{
+        font-size: 30px;
+    }
+    .energyImg{
+        width:80vw;
+    }
+    .science-topics img{
+        width:80vw;
+    }
+}
+
+
+@media (max-width:320px){
+    nav h2{
+        margin-left:45px;
+    }
+    .image-welcome{
+        width:300px;
+        height:160px;
+    }
+    .image-welcome img{
+        width:300px;
+    }
+    .subjects img{
+        width:280px;
+    }
+    .subject-main h2{
+        font-size:20px;
+    }
+    #timeContainer{
+        width:80vw;
+      }
+    #timeDisplay{
+        font-size: 40px;
+    }
+    #timeTitle{
+        font-size: 25px;
+    }
+}
