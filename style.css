@@ -10,6 +10,10 @@ body{
     background-color: black;
 }
 
+.fa-solid.fa-arrows-to-dot{
+    display:none;
+}
+
 .navbar-focus{
     display:flex;
     align-items: center;
@@ -47,6 +51,7 @@ nav h2{
     font-family:DM Sans, sans-serif;
     user-select: none;
     cursor: pointer;
+    text-align:center;
 }
 
 nav{
@@ -54,6 +59,7 @@ nav{
     justify-content: space-around;
     background-color: rgba(128, 128, 128, 0.5);
     margin-bottom:5vh;
+    width:100%;
 }
 
 nav span{
@@ -203,7 +209,8 @@ nav a{
 
 .timerTitle{
     width:35vw;
-    display: flex;
+    margin:auto;
+    display:flex;
     justify-content: center;
 }
 
@@ -551,6 +558,11 @@ nav a{
         justify-content: center;
         
     }
+    .fa-solid.fa-arrows-to-dot{
+        display:block;
+        font-size:30px;
+        color:white;
+    }
 
 }
 
@@ -580,6 +592,7 @@ nav a{
     #timeTitle{
         font-size: 40px;
     }
+
 }
 
 @media (max-width:400px){
@@ -604,6 +617,11 @@ nav a{
     }
     nav li{
         display:none;
+    }
+    .fa-solid.fa-arrows-to-dot{
+        display:block;
+        font-size:25px;
+        color:white;
     }
     nav h2{
         margin-left:50px;
@@ -649,5 +667,37 @@ nav a{
     }
     #timeTitle{
         font-size: 25px;
+    }
+}
+
+@media (max-width:300px){
+    nav h2{
+        margin-left:45px;
+    }
+    .image-welcome{
+        width:250px;
+        height:160px;
+    }
+    .image-welcome img{
+        width:250px;
+    }
+    .subjects img{
+        width:230px;
+        margin-bottom:2vh;
+    }
+    .subject-main h2{
+        font-size:20px;
+    }
+    .energyMain h1{
+        font-size: 23px;
+    }
+    .energyMain h2{
+        font-size: 22px;
+    }
+    .energyMain p{
+        font-size: 15px;
+    }
+    .energyMain span{
+        font-size: 20px;
     }
 }
